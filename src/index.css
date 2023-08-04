@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contact-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #68d391;
+    /* Green-200 color */
+}
+
+/* Footer Component */
+.cursor-pointer:hover {
+    text-decoration: underline;
+    text-decoration-color: #68d391;
+    /* Green-200 color */
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
