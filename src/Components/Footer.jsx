@@ -51,13 +51,13 @@ export const Footer = () => {
                         </div>
                         <div className="mt-[5%] lg:w-[350px] text-white text-center font-semibold lg:text-right">
                             <form action="" className="flex flex-col gap-5">
-                                <input type="text" placeholder="NAME" className="bg-[#252525] mix-blend-normal opacity-25 text-[16px] leading-[26px] tracking-[-0.222222px] 
+                                <input type="text" placeholder="NAME" className="bg-[#252525] mix-blend-normal text-[16px] leading-[26px] tracking-[-0.222222px] 
                                 relative -right-5" />
                                 <hr className="border-gray-400" />
-                                <input type="text" placeholder="EMAIL" className="bg-[#252525] mix-blend-normal opacity-25 text-[16px] leading-[26px] tracking-[-0.222222px] 
+                                <input type="text" placeholder="EMAIL" className="bg-[#252525] mix-blend-normal text-[16px] leading-[26px] tracking-[-0.222222px] 
                                 relative -right-5" />
                                 <hr className="border-gray-400" />
-                                <textarea id="message" cols="30" rows="10" placeholder="MESSAGE" className="bg-[#252525] mix-blend-normal opacity-25 text-[16px] leading-[26px] 
+                                <textarea id="message" cols="30" rows="10" placeholder="MESSAGE" className="bg-[#252525] mix-blend-normal text-[16px] leading-[26px] 
                                 tracking-[-0.222222px] relative -right-5"></textarea>
                                 <hr className="border-gray-400" />
                             </form>
