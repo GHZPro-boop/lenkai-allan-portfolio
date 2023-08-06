@@ -2,15 +2,17 @@ import React, { useState, useEffect } from "react";
 import todo_img from "../assets/to-do (1).png"
 import countries_img from "../assets/to-do (2).png"
 import fylo_img from "../assets/to-do (3).png"
+import azubi_img from "../assets/Azubi Shop.jpeg"
 
 export const Projects = () => {
 
     const [hoveredImg, setHoveredImg] = useState(null);
 
     const projectsData = [
-        { img: todo_img, title: "TO-DO APPLICATION", technologies: ["JavaScript", "HTML", "CSS"], projectUrl: "https://naigutaallan-todo-app.netlify.app/", codeUrl: "https://github.com/GHZPro-boop/todo-app" },
-        { img: countries_img, title: "COUNTRY APP - REST COUNTRIES API", technologies: ["JavaScript", "HTML", "CSS"], projectUrl: "https://naigutaallan-countries-api.netlify.app/", codeUrl: "https://github.com/GHZPro-boop/countries_api_app" },
-        { img: fylo_img, title: "FYLO LANDING PAGE", technologies: ["JavaScript", "HTML", "CSS"], projectUrl: "https://ghzpro-boop-fylo-landing-page.netlify.app/", codeUrl: "https://github.com/GHZPro-boop/fylo-landing-page" },
+        { img: azubi_img, title: "AZUBI SHOP APPLICATION", technologies: ["JavaScript", "HTML", "CSS", "REACT"], projectUrl: "https://azubi-shop-app.netlify.app/", codeUrl: "https://github.com/GHZPro-boop/azubi-shop-app" },
+        { img: todo_img, title: "TO-DO APPLICATION", technologies: ["JavaScript", "HTML", "CSS", "REACT"], projectUrl: "https://naigutaallan-todo-app.netlify.app/", codeUrl: "https://github.com/GHZPro-boop/todo-app" },
+        { img: countries_img, title: "COUNTRY APP - REST COUNTRIES API", technologies: ["JavaScript", "HTML", "CSS", "REACT"], projectUrl: "https://naigutaallan-countries-api.netlify.app/", codeUrl: "https://github.com/GHZPro-boop/countries_api_app" },
+        { img: fylo_img, title: "FYLO LANDING PAGE", technologies: ["JavaScript", "HTML", "CSS", "REACT"], projectUrl: "https://ghzpro-boop-fylo-landing-page.netlify.app/", codeUrl: "https://github.com/GHZPro-boop/fylo-landing-page" },
     ];
 
     const handleImageHover = (index) => {
