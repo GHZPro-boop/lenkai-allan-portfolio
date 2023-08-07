@@ -10,7 +10,7 @@ import { Footer } from './Components/Footer';
 function App() {
 
   return (
-    <div className='bg-[#151515] h-full w-full'>
+    <div className='bg-[#151515] overflow-hidden h-full w-full'>
       <Section1 />
       <div className='flex flex-col mt-[430px] mx-[10%] text-[#FFFFFF]'>
         <Section2 />
