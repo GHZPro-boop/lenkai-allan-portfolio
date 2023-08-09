@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import todo_img from "../assets/to-do (1).png"
 import countries_img from "../assets/to-do (2).png"
 import fylo_img from "../assets/to-do (3).png"
-import azubi_img from "../assets/App.jpg"
+import azubi_img from "../assets/Azubi Shop.jpeg"
 
 export const Projects = () => {
 
