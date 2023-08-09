@@ -8,7 +8,7 @@ export const Section1 = () => {
     return (
         <div>
             <div className='flex flex-col mx-[5%] lg:mx-[10%] md:mx-[20%] items-center pt-[20px] lg:flex-row md:flex-row lg:justify-between md:justify-between'>
-                <div className='flex flex-col lg:flex-row md:flex-row justify-center'>
+                <div className='flex flex-col lg:flex-row md:flex-row justify-center items-center'>
                     <h1 className='lg:absolute md:absolute text-[24px] md:text-[32px] lg:text-[32px] text-[#FFFFFF] leading-[32px] 
                     lg:items-start md:items-start tracking-[-0.333333px] font-bold drop-shadow-[0px 4px 4px rgba(0, 0, 0, 0.25)]'>
                         allanlenkai</h1>
@@ -28,9 +28,9 @@ export const Section1 = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex items-center justify-center lg:justify-end md:justify-end lg:w-[80%] md:w-[80%] 
-            h-[100%] absolute md:absolute lg:absolute mx-[20%] lg:mx-[10%] md:mx-[10%]">
-                <img src={myphoto} alt="my photo" className="h-[100%x] w-[100%] lg:absolute lg:top-[141px]" />
+            <div className="flex items-center justify-center lg:justify-end md:justify-end lg:w-[85%] md:w-[95%] 
+            h-[383px] absolute md:absolute lg:absolute mx-[10%] lg:mx-[10%] md:mx-[5%]">
+                <img src={myphoto} alt="my photo" className="h-[110%] w-[150%] md:w-[45%] lg:w-[30%] lg:absolute lg:top-[80px]" />
             </div>
         </div>
     );
