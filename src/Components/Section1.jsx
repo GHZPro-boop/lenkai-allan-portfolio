@@ -29,8 +29,8 @@ export const Section1 = () => {
                 </div>
             </div>
             <div className="flex items-center justify-center lg:justify-end md:justify-end lg:w-[80%] md:w-[80%] 
-            h-[383px] absolute md:absolute lg:absolute mx-[20%] lg:mx-[10%] md:mx-[10%]">
-                <img src={myphoto} alt="my photo" className="h-[242px] w-[174.21px] lg:absolute lg:top-[141px]" />
+            h-[100%] absolute md:absolute lg:absolute mx-[20%] lg:mx-[10%] md:mx-[10%]">
+                <img src={myphoto} alt="my photo" className="h-[100%x] w-[100%] lg:absolute lg:top-[141px]" />
             </div>
         </div>
     );
